@@ -17,7 +17,7 @@ hilo_recibir.start()
 print ("\n<<Bienvenido al Chat de Sistemas operativos>>\n\n Aqui puedes escribir tus mensajes para comunicarte con los demas usuarios conectados al chat!\n\n Escribe '!help' para obtener ayuda sobre los comandos disponibles.\n")
 nombre_usuario = input("Escriba su nombre de usuario para continuar: ")
 while True:
-    mensaje = input(">")
+    mensaje = input(nombre_usuario + ":") 
     cliente_socket.send((nombre_usuario + ": " + mensaje).encode("utf-8")) #el .encode encapsula todos los parametros anteriores al mismo ojo a los parentesis
     if mensaje=="!help":
         print("para salir del chat solo escribe 'exit' o 'salir'")
