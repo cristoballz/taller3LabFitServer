@@ -5,7 +5,7 @@ import pickle
 
 class Servidor(object):
 	"""Servidos basico para chat, hecho en python3 """
-	def __init__(self, host='10.3.32.13',port=8000):
+	def __init__(self, host='localhost',port=8000):
 		self.clients = []
 
 		self.sock = socket.socket(socket.AF_INET,socket.SOCK_STREAM)
