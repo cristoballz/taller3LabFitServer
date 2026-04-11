@@ -1,4 +1,4 @@
-# Taller3 Lab S.O. Server.
+# Taller 3 Lab S.O. Server.
 Taller 3 del laboratorio de sistemas operativos (Ing. Comp).
 Código para conectar uno o más clientes de un chat.
 Ejecutarlo en entorno de red de en donde los usuarios
