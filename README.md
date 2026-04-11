@@ -1,4 +1,4 @@
-# taller3LabS.OServer
+# Taller3 Lab S.O. Server.
 Taller 3 del laboratorio de sistemas operativos.
 código para conectar uno o más clientes de un chat.
 Ejecutarlo en entorno de red de en donde los usuarios
@@ -8,4 +8,5 @@ Finalmente, cuando el cliente se desconecta, el hilo de comunicación se cierra 
 en la sala correspondiente.
 
 Integrantes: Benjamín Molina, Bernardo Casanga, Cristóbal Alfaro, Fernando Guerra
+
 Observaciones: Los usuarios pueden tener nombre, se puede salir, cerrar el servidor en la terminal del server y se puede pedir la ayuda con el comando help!
