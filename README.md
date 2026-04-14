@@ -6,6 +6,7 @@ deben esperar mensajes del o los clientes y los reenvía a todos los clientes en
 Finalmente, cuando el cliente se desconecta, el hilo de comunicación se cierra y se elimina al usuario de la lista de clientes
 en la sala correspondiente.
 
-Integrantes: Benjamín Molina, Bernardo Casanga, Cristóbal Alfaro, Fernando Guerra. 
+Integrantes: Alvaro Vega, Benjamín Molina, Bernardo Casanga, Cristóbal Alfaro, Fernando Guerra. 
 
-Observaciones: Los usuarios pueden tener nombre, se puede salir, cerrar el servidor en la terminal del server y se puede pedir la ayuda con el comando !help
+Observaciones: Los usuarios pueden tener nombre, se pueden salir, el host puede cerrar el servidor en la terminal del server y se puede pedir ayuda con el comando !help.
+Los sockets e hilos en general no dan ningun problema y hay unos cuantos bugs visuales cuando muchos usuarios escriben o se salen a la vez.
